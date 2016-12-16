@@ -1,0 +1,13 @@
+{
+  "name": "nativescript-go-ethereum",
+  "description": "A NativeScript plugin for go-ethereum",
+  "main": "go-ethereum",
+  "types": "index.d.ts",
+  "version": "0.1.0",
+  "nativescript": {
+    "platforms": {
+      "ios": "1.6.0",
+      "android": "1.6.0"
+    }
+  }
+}
