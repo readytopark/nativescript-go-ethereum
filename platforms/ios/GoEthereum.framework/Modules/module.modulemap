@@ -1,0 +1,6 @@
+framework module GoEthereum {
+  umbrella header "GoEthereum.h"
+
+  export *
+  module * { export * }
+}

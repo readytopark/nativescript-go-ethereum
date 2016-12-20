@@ -2,10 +2,12 @@
     "compilerOptions": {
         "target": "es5",
         "module": "commonjs",
-        "removeComments": true,
+        "sourceMap": false,
+        "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "sourceMap": true,
-        "noEmitHelpers": true
+        "removeComments": false,
+        "noEmitHelpers": true,
+        "noImplicitAny": false
     },
     "files": [
       "go-ethereum.android.ts",
